@@ -57,6 +57,6 @@ func home(ctx *gin.Context) {
 
 func health(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, gin.H{
-		"status": "ok",
+		"status": "OK",
 	})
 }
